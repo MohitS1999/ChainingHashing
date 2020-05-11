@@ -29,7 +29,9 @@ public class ChainingHashing{
 		return key%10;
 	}
 }
+//Linked List
 class LinkedList{
+	//Insert Function
 	public void insert(Node head,int key){
 		Node n=head;
 		Node node=new Node(key);
